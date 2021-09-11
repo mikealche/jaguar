@@ -29,5 +29,8 @@
     "express": "^4.17.1",
     "mkdirp": "^1.0.4"
   },
+  "peerDependencies": {
+    "yup": "^0.32.9"
+  },
   "bin": "./dist/startServer.js"
 }

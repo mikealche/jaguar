@@ -1,17 +1,16 @@
 "use strict";
 
 import express from "express";
-
-export default function startServer() {
+import { registerRoutesFromFileSystem } from "@jaguar/core";
+export default async function startServer() {
   const app = express();
 
   app.use(express.json());
 
-  const init = async () => {
-    // await registerRoutesFromFileSystem(app);
-    const port = 3000;
-    app.listen(port, () => {
-      console.log(`Example app listening at http://localhost:${port}`);
-    });
-  };
+  await registerRoutesFromFileSystem(app);
+  const port = 3000;
+  app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`);
+  });
+  return app;
 }
