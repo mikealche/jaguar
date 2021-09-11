@@ -11,6 +11,7 @@
     "url": "git+https://github.com/mikealche/jaguar.git"
   },
   "scripts": {
+    "start:server": "server",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {

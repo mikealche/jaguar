@@ -1,7 +1,8 @@
 "use strict";
 
 import express from "express";
-import { registerRoutesFromFileSystem } from "@jaguar/core";
+import registerRoutesFromFileSystem from "./fileSystemRouting";
+
 export default async function startServer() {
   const app = express();
 

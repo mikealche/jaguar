@@ -31,5 +31,8 @@
   },
   "peerDependencies": {
     "yup": "0.32.9"
+  },
+  "bin": {
+    "startServer": "dist/startServer.js"
   }
 }
