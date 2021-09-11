@@ -3,8 +3,5 @@
   "compilerOptions": {
     "outDir": "./dist"
   },
-  "paths": {
-    "@jaguar/core": ["../core/lib"]
-  },
   "include": ["./lib"]
 }

@@ -25,7 +25,9 @@
   },
   "dependencies": {
     "@jaguar/core": "^0.0.0",
-    "express": "^4.17.1"
+    "@types/mkdirp": "^1.0.2",
+    "express": "^4.17.1",
+    "mkdirp": "^1.0.4"
   },
   "bin": "./dist/startServer.js"
 }
