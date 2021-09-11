@@ -1,6 +1,9 @@
 {
   "name": "jaguar",
   "private": true,
+  "scripts": {
+    "watch": "nodemon --watch \"./packages/**/lib/*\" --ext \"ts,json\" --exec \"lerna run build\""
+  },
   "devDependencies": {
     "@types/node": "^16.9.1",
     "lerna": "^4.0.0",

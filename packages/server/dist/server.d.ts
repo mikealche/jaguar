@@ -1,2 +1,2 @@
-export default function server(): void;
+export default function startServer(): void;
 //# sourceMappingURL=server.d.ts.map
