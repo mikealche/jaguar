@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "@jaguar/*": ["*/lib"]
+    },
+    "declarationMap": true,
+    "target": "es5",
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+    /* Type Checking */
+    "strict": true /* Enable all strict type-checking options. */,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  }
+}
