@@ -1,0 +1,23 @@
+{
+  "name": "example-backend",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Mike Alche <mikealche@gmail.com>",
+  "homepage": "https://github.com/mikealche/jaguar#readme",
+  "license": "ISC",
+  "main": "lib/example-backend.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikealche/jaguar.git"
+  },
+  "scripts": {
+    "start:server": "startServer",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/mikealche/jaguar/issues"
+  },
+  "dependencies": {
+    "@jaguar/core": "^0.0.0"
+  }
+}
